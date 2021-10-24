@@ -8,7 +8,7 @@ Each **warrior** is characterized by:
 - Maximum points of attack they can deal in a single combat
 - Maximum points of block they can use when defending an attack in a single combat
 
-**Game** consists of single **combats** where one of warriors attack and the other block attacks. Attack's and block's points are random, determined based on maximum points of attack or blocks for a given warrior. After a combat health of defender is decreased if the attack points were greater than block points.
+**Game** consists of single **combats** where one of warriors attacks and the other blocks. Attack's and block's points are random, determined based on maximum points of attack or blocks for a given warrior. After a combat health of defender is decreased if the attack points were greater than block points.
 
 After one combat the order of attacker and defender changes. Warriors continue fighting until one of them dies.
 
