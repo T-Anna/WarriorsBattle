@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 using WarriorsBattle;
 using Moq;
@@ -63,7 +62,5 @@ namespace WarriorsBattleTests
 
             DefenderMock.VerifySet(x => x.Health = initialHealth-expectedDamage);
         }
-
-
     }
 }

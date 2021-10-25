@@ -4,9 +4,9 @@ namespace WarriorsBattle
 {
     public class Game
     {
-        private bool hasGameEnded { get; set; }
-        private IWarrior FirstWarrior { get; set; }
-        private IWarrior SecondWarrior { get; set; }
+        private bool hasGameEnded;
+        private IWarrior FirstWarrior;
+        private IWarrior SecondWarrior;
         public IWarrior Winner { get; private set; }
 
         public Game(IWarrior first, IWarrior second)
@@ -32,7 +32,7 @@ namespace WarriorsBattle
                 {
                     hasGameEnded = true;
                     Winner = attacker;
-                    UIMessages.printEndMessage(this);
+                    UIMessages.printEndMessage(Winner);
                 }
                 else
                 {

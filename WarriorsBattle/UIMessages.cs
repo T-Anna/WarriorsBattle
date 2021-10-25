@@ -23,9 +23,9 @@ namespace WarriorsBattle
             Console.WriteLine($"{second.Name} has {second.Health} health \n");
         }
 
-        public static void printEndMessage(Game game)
+        public static void printEndMessage(IWarrior winner)
         {
-            Console.WriteLine($"{game.Winner.Name} won");
+            Console.WriteLine($"{winner.Name} won");
             Console.WriteLine("Game over");
         }
     }
